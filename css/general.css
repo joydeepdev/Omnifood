@@ -52,6 +52,10 @@ body {
   column-gap: 6.4rem;
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -138,7 +142,7 @@ body {
 }
 
 .link:link,
-.link:visited{
+.link:visited {
   display: inline-block;
   color: #e67e22;
   text-decoration: none;
@@ -148,10 +152,9 @@ body {
 }
 
 .link:hover,
-.link:active{
+.link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
-
 }
 
 .margin-right-sm {
@@ -171,17 +174,17 @@ body {
   color: #e67e22;
 }
 
-.list-item{
+.list-item {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
 
-.margin-bottom-md{
+.margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }
 
-.center-text{
+.center-text {
   text-align: center;
 }
